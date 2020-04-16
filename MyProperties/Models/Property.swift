@@ -16,6 +16,7 @@ protocol PropertyType {
 struct Book: PropertyType {
     var name: String
     var description: String
+    var author: String
 }
 
 struct Phone: PropertyType {
@@ -31,6 +32,7 @@ struct Phone: PropertyType {
 struct Car: PropertyType {
     var name: String
     var description: String
+    var numOfSeats: Int
 }
 
 

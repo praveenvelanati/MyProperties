@@ -25,13 +25,13 @@ struct Person {
     
     // Test Data for dev
     static func getSectionData() -> [Section<PropertyType>] {
-        let book1 = Book(name: "Java", description: "Advance Java books i bought")
-        let book2 = Book(name: "Swift Pro", description: "Advanced concepts of swift")
-        let book3 = Book(name: "Mobile Security", description: "Deep dive in to best practices of security in Mobile")
+        let book1 = Book(name: "Java", description: "Advance Java books i bought", author: "Daniel")
+        let book2 = Book(name: "Swift Pro", description: "Advanced concepts of swift", author: "Daniel")
+        let book3 = Book(name: "Mobile Security", description: "Deep dive in to best practices of security in Mobile", author: "Daniel")
         let section1: Section<PropertyType> =  Section(id: .books, list: [book1, book2, book3])
         
-        let car1 = Car(name: "Honda Civic", description: "My First car which gave me a lot of trouble")
-        let car2 = Car(name: "Toyota Corolla", description: "My Second car which is good for it's money's worth")
+        let car1 = Car(name: "Honda Civic", description: "My First car which gave me a lot of trouble", numOfSeats: 2)
+        let car2 = Car(name: "Toyota Corolla", description: "My Second car which is good for it's money's worth", numOfSeats: 4)
         let section2: Section<PropertyType> = Section(id: .cars, list: [car1, car2])
         
         let phone1 = Phone(name: "Samsung", description: "My First Smartphone", os: .android)
