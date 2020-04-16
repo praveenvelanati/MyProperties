@@ -13,23 +13,23 @@ protocol PropertyType {
     var description: String { get }
 }
 
-struct Book: PropertyType {
+struct Book: PropertyType, Codable {
     var name: String
     var description: String
     var author: String
 }
 
-struct Phone: PropertyType {
+struct Phone: PropertyType, Codable {
     var name: String
     var description: String
     var os: OS
     
-    enum OS {
+    enum OS: String, Codable {
         case android, ios, windows
     }
 }
 
-struct Car: PropertyType {
+struct Car: PropertyType, Codable {
     var name: String
     var description: String
     var numOfSeats: Int
