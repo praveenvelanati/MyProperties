@@ -11,7 +11,7 @@
 		C3E609702448C4250064A7FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E6096E2448C4250064A7FF /* Main.storyboard */; };
 		C3E609722448C4280064A7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E609712448C4280064A7FF /* Assets.xcassets */; };
 		C3E609802448C4280064A7FF /* MyPropertiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6097F2448C4280064A7FF /* MyPropertiesTests.swift */; };
-		C3E6098C2448C4550064A7FF /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6098B2448C4550064A7FF /* Property.swift */; };
+		C3E6098C2448C4550064A7FF /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6098B2448C4550064A7FF /* PropertyType.swift */; };
 		C3E6098E2448C4CA0064A7FF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6098D2448C4CA0064A7FF /* Person.swift */; };
 		C3E609902448C58E0064A7FF /* PropertiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6098F2448C58E0064A7FF /* PropertiesTableViewController.swift */; };
 		C3E609922448D0BD0064A7FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E609912448D0BD0064A7FF /* SceneDelegate.swift */; };
@@ -19,6 +19,10 @@
 		C3E609962448DABE0064A7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E609952448DABE0064A7FF /* LaunchScreen.storyboard */; };
 		C3E609982448EABD0064A7FF /* Cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E609972448EABD0064A7FF /* Cars.plist */; };
 		C3E6099A2448EAD10064A7FF /* Phones.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3E609992448EAD10064A7FF /* Phones.plist */; };
+		C3E6099E2448F0830064A7FF /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6099D2448F0830064A7FF /* URLExtension.swift */; };
+		C3E609A02448FB870064A7FF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6099F2448FB870064A7FF /* Book.swift */; };
+		C3E609A22448FBAB0064A7FF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E609A12448FBAB0064A7FF /* Car.swift */; };
+		C3E609A42448FBD50064A7FF /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E609A32448FBD50064A7FF /* Phone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,7 @@
 		C3E6097B2448C4280064A7FF /* MyPropertiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPropertiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E6097F2448C4280064A7FF /* MyPropertiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPropertiesTests.swift; sourceTree = "<group>"; };
 		C3E609812448C4280064A7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C3E6098B2448C4550064A7FF /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		C3E6098B2448C4550064A7FF /* PropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyType.swift; sourceTree = "<group>"; };
 		C3E6098D2448C4CA0064A7FF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C3E6098F2448C58E0064A7FF /* PropertiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesTableViewController.swift; sourceTree = "<group>"; };
 		C3E609912448D0BD0064A7FF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 		C3E609952448DABE0064A7FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E609972448EABD0064A7FF /* Cars.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cars.plist; sourceTree = "<group>"; };
 		C3E609992448EAD10064A7FF /* Phones.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Phones.plist; sourceTree = "<group>"; };
+		C3E6099D2448F0830064A7FF /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		C3E6099F2448FB870064A7FF /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C3E609A12448FBAB0064A7FF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		C3E609A32448FBD50064A7FF /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,8 @@
 		C3E609672448C4250064A7FF /* MyProperties */ = {
 			isa = PBXGroup;
 			children = (
+				C3E609A52448FBF60064A7FF /* Data */,
+				C3E6099C2448F0620064A7FF /* Extensions */,
 				C3E6098A2448C4430064A7FF /* Models */,
 				C3E609682448C4250064A7FF /* AppDelegate.swift */,
 				C3E609912448D0BD0064A7FF /* SceneDelegate.swift */,
@@ -113,13 +123,31 @@
 		C3E6098A2448C4430064A7FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C3E6098B2448C4550064A7FF /* Property.swift */,
+				C3E6098B2448C4550064A7FF /* PropertyType.swift */,
 				C3E6098D2448C4CA0064A7FF /* Person.swift */,
-				C3E609932448D7C30064A7FF /* Books.plist */,
-				C3E609972448EABD0064A7FF /* Cars.plist */,
-				C3E609992448EAD10064A7FF /* Phones.plist */,
+				C3E6099F2448FB870064A7FF /* Book.swift */,
+				C3E609A12448FBAB0064A7FF /* Car.swift */,
+				C3E609A32448FBD50064A7FF /* Phone.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C3E6099C2448F0620064A7FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6099D2448F0830064A7FF /* URLExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3E609A52448FBF60064A7FF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C3E609972448EABD0064A7FF /* Cars.plist */,
+				C3E609992448EAD10064A7FF /* Phones.plist */,
+				C3E609932448D7C30064A7FF /* Books.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +256,13 @@
 			files = (
 				C3E6098E2448C4CA0064A7FF /* Person.swift in Sources */,
 				C3E609692448C4250064A7FF /* AppDelegate.swift in Sources */,
-				C3E6098C2448C4550064A7FF /* Property.swift in Sources */,
+				C3E609A22448FBAB0064A7FF /* Car.swift in Sources */,
+				C3E609A02448FB870064A7FF /* Book.swift in Sources */,
+				C3E609A42448FBD50064A7FF /* Phone.swift in Sources */,
+				C3E6098C2448C4550064A7FF /* PropertyType.swift in Sources */,
 				C3E609902448C58E0064A7FF /* PropertiesTableViewController.swift in Sources */,
 				C3E609922448D0BD0064A7FF /* SceneDelegate.swift in Sources */,
+				C3E6099E2448F0830064A7FF /* URLExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

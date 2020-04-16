@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Java</string>
+		<key>description</key>
+		<string>My First book in computer science</string>
+		<key>author</key>
+		<string>Daniel</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Advanced Swift</string>
+		<key>description</key>
+		<string>Advanced Concepts of Swift programming Language</string>
+		<key>author</key>
+		<string>Daniel</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mobile Security</string>
+		<key>description</key>
+		<string>Deep dive into advanced concepts of Mibile Security</string>
+		<key>author</key>
+		<string>Daniel</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Oauth 2.0</string>
+		<key>description</key>
+		<string>Completer reference to client side implementation of Oauth 2.0</string>
+		<key>author</key>
+		<string>Daniel</string>
+	</dict>
+</array>
+</plist>

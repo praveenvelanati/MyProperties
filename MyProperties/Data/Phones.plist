@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Samsung</string>
+		<key>description</key>
+		<string>My very first smart phone.</string>
+		<key>os</key>
+		<string>android</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Iphone 7 plus</string>
+		<key>description</key>
+		<string>The Red beauty</string>
+		<key>os</key>
+		<string>ios</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Iphone 11</string>
+		<key>description</key>
+		<string>The Mint Gold</string>
+		<key>os</key>
+		<string>ios</string>
+	</dict>
+</array>
+</plist>
