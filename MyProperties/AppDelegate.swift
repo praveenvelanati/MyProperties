@@ -35,3 +35,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension Data {
+    
+    func hexStringFromData() -> String {
+        var bytes = [UInt8](repeating: 0, count: (self as NSData).length)
+        (self as NSData).getBytes(&bytes, length: self.count)
+        
+        var hexString = ""
+        for byte in bytes {
+            hexString += String(format: "%02x", UInt8(byte))
+        }
+        
+        return hexString
+    }
+    
+}
+
+extension String {
+    func digest() -> Data? {
+        var digest = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
+        guard let encryptedVerifier = self.data(using: .utf8) else {
+            return nil
+        }
+        CC_SHA256((encryptedVerifier as NSData).bytes, UInt32(encryptedVerifier.count), &digest)
+        return Data(bytes: digest, count: Int(CC_SHA256_DIGEST_LENGTH))
+    }
+}
